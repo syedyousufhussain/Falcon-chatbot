@@ -1,0 +1,127 @@
+body{
+	margin-left: 0px;
+	margin-top: 0px;
+	background-color: transparent;
+	background-image: url("top-view-photo-of-boat-on-ocean-1555313.jpg");
+	background-size: cover;
+}
+
+#confirmation{
+	font-family: "Verdana", Times, serif;
+	color: white;
+	font-weight:bold;
+	font-size: 19px;
+	width:100%;
+	text-align: center;
+	position:fixed;
+	text-shadow:1px 1px 0px black;
+	background-color: transparent;
+}
+
+.button{
+ 	position:fixed;
+	transform:translate(-50%,0);
+	width:40%;
+	height:7%;
+	border-radius:15px;
+	font-weight:bold;
+	font-size: 19px;
+	transition-duration: 0.6s;
+	opacity: 0.5;
+}
+
+
+#noButton{
+	left:25%;
+	bottom:85%;
+	background-color: green;
+	color:white;
+	opacity: 0.5;
+	border-radius: 15px;
+	transition-duration: 0.6s;
+}
+#noButton:hover{
+	background-color: black;
+	border-color: yellow;
+	color:white;
+}
+
+#yesButton{
+	left:75%;
+	bottom:85%;
+	background-color: green;
+	color:white;
+	opacity: 0.5;
+	border-radius: 15px;
+	transition-duration: 0.6s;
+}
+#yesButton:hover{
+	background-color: black;
+	border-color: yellow;
+	color:white;
+}
+
+#helpBox{
+   display:none;
+   width:70%;
+   position: fixed;
+   bottom: 75%;
+   left: 50%;
+   transform:translate(-50%,0);
+   border-radius: 15px;
+   background-color: white;
+   
+   transition-duration: 0.6s;
+}
+#helpBox:hover{
+	background-color: black;
+	color: white;
+	size: 20%;
+}
+
+#helpButton{
+	display: none;
+   bottom: 67.5%;
+   left: 50%;
+   background-color: orange;
+}
+
+#textBox{
+	position:fixed;
+	width:70%;
+	bottom:5%;
+	border-radius: 15px;
+	opacity: 0.5;
+	transition-duration: 0.6s;
+}
+#textBox:hover{
+	background-color:black;
+	color: white;
+	border-color: yellow;
+}
+#chatButton{
+	position:fixed;
+	bottom:5.5%;
+	left:75%;
+	width: 20%;
+	height:7%;
+	opacity: 0.5;
+	border-radius: 15px;
+	transition-duration: 0.6s;
+	font-weight:bold;
+}
+#chatButton:hover{
+	 background-color: #555555;
+  	 color: white;
+  	 border-color: yellow;
+}
+
+#trainArea{
+	height:35%;
+	width:100%;
+	position: fixed;
+	display:none;
+	z-index:2;
+	
+	
+}
